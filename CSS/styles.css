@@ -1,0 +1,158 @@
+.attribution {
+    font-size: 11px; text-align: center; 
+    color: white;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+body {
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    background-color: hsl(217, 54%, 11%);
+}
+h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 22px;
+    text-align: left;
+    padding-left: 26.703px;
+    width: fit-content;
+}
+h1:hover {
+    color: cyan;
+}
+hr {
+    background-color: hsl(215, 51%, 70%);;
+    height: 1px;
+    border: none;
+    width: 85%;
+}
+.avatar {
+    border: solid white 1px;
+    border-radius: 50%;
+    float: left;
+    width: 10%;
+}
+.blue {
+    color: hsl(215, 51%, 70%);
+}
+.creator {
+    float: left;
+    font-weight: 400;
+    padding-left: 20px;
+    margin: 4.125px 0;
+}
+.creator-div {
+    display: inline-block;
+    position: relative;
+    margin: 12px 0 25px;
+    width: 85%;
+}
+.clock {
+    float: left;
+    width: 20px;
+}
+.description {
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    font-weight: 300;
+    margin: 22px auto;
+    text-align: left;
+    padding: 0 26.703px;
+}
+.days-left {
+    color: hsl(215, 51%, 70%);
+    margin: 0;
+    float: right;
+    font-weight: 300;
+    padding-left: 8px;
+}
+.etherium {
+    float: left;
+    margin: 0;
+    width: 111%;
+}
+.eth-and-time {
+    position: relative;
+    width: 85%;
+    margin: 0 auto;
+    padding-bottom: 35px;
+}
+.eth-div {
+    float: left;
+    position: relative;
+    margin: 0;
+}
+.eth-number {
+    color: cyan;
+    margin: 0;
+    float: right;
+    font-weight: 400;
+    padding-left: 8px;
+}
+.equilibrium {
+    border-radius: 15px;
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+}
+.wrapper {
+    border-radius: 15px;
+    margin: 26.703px auto 0;
+    position: relative;
+    width: 302.594px;
+    height: 302.594px;
+}
+.eye {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.wrapper:hover .overlay {
+    opacity: .5;
+}
+.wrapper:hover .eye {
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+.overlay {
+    border-radius: 15px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 302.594px;
+    width: 100%;
+    opacity: 0;
+    margin: 0 auto;
+    transition: .3s ease;
+    background-color: cyan;
+}
+.main-container {
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 20px;
+    box-shadow: 4px 28px 10px 20px hsl(216, 56%, 10%), 22px 40px 20px 40px hsl(217, 56%, 11%);
+    padding-top: 1px;
+    position: relative;
+    margin: 150px auto;
+    width: 356px;
+}
+.time-div {
+    float: right;
+    position: relative;
+}
+.white {
+    color: white;
+}
+.white:hover {
+    color: cyan;
+}
